@@ -1,0 +1,11 @@
+# Dataset - download from Kaggle (see README)
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
