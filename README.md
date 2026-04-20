@@ -25,6 +25,7 @@ This project provides a thorough exploration of global food prices using a real-
 
 ```
 ├── gmfp.ipynb                     # Main Jupyter Notebook
+├── gmfp.py                        # Python script version of the notebook
 ├── README.md
 └── wfp_market_food_prices.csv     # Dataset (download separately — see below)
 ```
@@ -84,7 +85,13 @@ pip install pandas numpy matplotlib scikit-learn scipy
 jupyter notebook gmfp.ipynb
 ```
 
-Make sure `wfp_market_food_prices.csv` is in the same directory as the notebook.
+### Run as a Python Script
+
+```bash
+python gmfp.py
+```
+
+Make sure `wfp_market_food_prices.csv` is in the same directory before running either file.
 
 ---
 
